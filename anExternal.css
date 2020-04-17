@@ -1,0 +1,39 @@
+body {
+  background-color: antiquewhite;
+}
+
+#unique-css {
+  text-shadow:yellow 3px 3px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#pic-w-margin {
+  margin: 20px;
+}
+
+#dotted-border {
+  border: dotted 4px orange;
+}
+
+#floated-img img {
+  float: left;
+}
+
+#rounded-border img {
+  border-style: solid;
+  border-width: 4px;
+  border-color: orange;
+  border-radius: 50px;
+}
